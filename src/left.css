@@ -1,0 +1,116 @@
+.leftAppContainer .headContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid lightgray 1px;
+    border-bottom: solid lightgray 1px;
+}
+
+.topContainer{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.logoContainer{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+.logoImg{
+    width: 50px;
+    aspect-ratio: 1/1;
+}
+.companyContainer{
+    font-size: 30px;
+}
+.leftBodyContainer{
+    padding: 30px;
+}
+.divider{
+    width: 100%;
+    border-bottom: solid rgb(169, 169, 169) 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.leftTittleContainer{
+    font-size: 25px;
+    font-weight: bold;
+}
+.catItem{
+    width: 100%;
+    padding-left: 30px;
+}
+.catItems{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: grey;
+    cursor: pointer;
+}
+.typeText{
+    margin: 20px 0px 20px 0px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.typeItem{
+    display: flex;
+    margin-bottom: 10px;
+    gap:10px
+}
+.box{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.typeList{
+    font-size: 17px;
+    font-weight: bold;
+    color: grey;
+}
+.applyContainer{
+    display: flex;
+    align-items: center;
+}
+.applyDiv{
+    margin-right: 20px;
+}
+.applyButton{
+    border: none;
+    padding: 10px 30px 10px 30px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(101, 101, 240);
+}
+.deleteButton{
+    border: none;
+    padding:10px;
+    font-size: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:1200px) {
+    .topContainer{
+        width: 90%;
+    }
+}
+
+@media (max-width:900px) {
+    .companyContainer{
+        display: none;
+    }
+    .topContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftBodyContainer{
+        padding: 20px;
+    }
+    .catItem{
+        padding-left: 10px;
+    }
+}

@@ -1,0 +1,84 @@
+.mainDiv {
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    border: solid rgb(176, 176, 176) 1px;
+}
+
+.topDiv {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newDiv {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.likeCont {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 25px;
+}
+
+.imageReal {
+    margin-top: 20px;
+    height: 400px;
+}
+
+.bottomDiv {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.tittleCont {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.lowLevel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonCard {
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: purple;
+    border-radius: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.priceDiv {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.Price {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.imageCardContainer {
+    background-color: rgb(229, 229, 229);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+}

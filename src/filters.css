@@ -1,0 +1,8 @@
+.filterApp{
+    width: auto;
+    display: flex;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+}
